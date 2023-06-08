@@ -1,0 +1,13 @@
+import java.util.*;
+class 
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int testcase = sc.nextInt();
+		for (int inc = 0; inc<testcase; inc++ ){ 
+		    int n=sc.nextInt(),x=sc.nextInt();
+		    System.out.println(n<=x?"YES":"NO");
+		}
+	}
+}
